@@ -706,7 +706,7 @@ support for no js
 	position:relative;
 }
 .dark-bg {
-  background:#303236;
+  background:#0A5189;
 }
 .tp-banner-fullscreen-container {
 	width:100%;
@@ -2601,7 +2601,6 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   display: block;	
   position: relative;
   background-size: cover;
-     
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
