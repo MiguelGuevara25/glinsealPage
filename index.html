@@ -167,7 +167,13 @@
                 <div id="index-link" class="sm-video-bg">
                     <div class="container sm-content-cont text-center js-height-fullscr">
                         <div class="sm-video-wrapper">
-                            <div class="sm-video"></div>
+                            <!-- <div class="sm-video"></div> -->
+                            <div class="sm-videos">
+                                <video muted autoplay playsinline id="video_background" preload="auto" loop="true"
+                                    style="position: absolute; inset: 0px 0px 0px -246px; z-index: -100; width: 1722.67px; height: 969px;">
+                                    <source src="video/glinsealvideo.mp4" type="video/mp4">
+                                </video>
+                            </div>
                         </div>
 
                         <div class="sm-cont-middle">
@@ -717,7 +723,7 @@
                     "width": 1920,
                     "height": 1080,
                     "path": "video/",
-                    "filename": "sm-video", // FILE NAME of your video
+                    "filename": "glinsealvideo", // FILE NAME of your video
                     "types": ["mp4", "webm"],
                     "autoplay": true,
                     "loop": true
