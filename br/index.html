@@ -165,18 +165,12 @@
                 <div id="index-link" class="sm-video-bg">
                     <div class="container sm-content-cont text-center js-height-fullscr">
                         <div class="sm-video-wrapper">
-                            <!-- <div class="sm-video"></div> -->
-                            <div class="sm-videos">
-                                <video muted autoplay playsinline id="video_background" preload="auto" loop="true"
-                                    style="position: absolute; inset: 0px 0px 0px -500px; z-index: -100; width: 1722.67px; height: 969px;">
-                                    <source src="../video/glinsealvideo.mp4" type="video/mp4">
-                                </video>
-                            </div>
+                            <div class="sm-video"></div>
                         </div>
 
                         <div class="sm-cont-middle">
                             <div class="font-white light-72-wide sm-mb-15 sm-mt-20 relative">
-                                SISTEMA DE RASTREO <span class="bold">GLINSEAL</span>
+                                SISTEMA DE RASTREO <br /> <span class="bold">GLINSEAL</span>
                             </div>
 
                             <div class="font-white norm-40-wide hide-0-736 sm-mb-50 relative">
@@ -715,18 +709,18 @@
     <script>
         // Video Init
         $(document).ready(function () {
-            if (!($("html").hasClass("mobile"))) {
-                var videobackground = new $.backgroundVideo($('.sm-video'), {
-                    "align": "centerXY",
-                    "width": 1920,
-                    "height": 1080,
-                    "path": "../video/",
-                    "filename": "sm-video", // FILE NAME of your video
-                    "types": ["mp4", "webm"],
-                    "autoplay": true,
-                    "loop": true
-                });
-            }
+            //if (!($("html").hasClass("mobile"))) {
+            var videobackground = new $.backgroundVideo($('.sm-video'), {
+                "align": "centerXY",
+                "width": 1920,
+                "height": 1080,
+                "path": "../video/",
+                "filename": "glinsealvideo", // FILE NAME of your video
+                "types": ["mp4", "webm"],
+                "autoplay": true,
+                "loop": true
+            });
+            //}
         });
     </script>
 

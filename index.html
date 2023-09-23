@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="RFID container security system scanners tamper x-ra lectoras seal precintos">
     <meta name="description" content="Sistema de Tracking">
-    <meta name="author" content="Glinseal">
+    <meta name="author" content="Glinvergy">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -126,19 +126,12 @@
 
                                                 <li class="parent">
                                                     <a href="#">
-                                                        <div class="main-menu-title text-link-g">
-                                                            <i class="fa fa-language" style="font-size: x-large;"></i>
-                                                        </div>
+                                                        <div class="main-menu-title"><i class="fa fa-language"
+                                                                style="font-size: x-large;"></i></div>
                                                     </a>
-
                                                     <ul class="sub">
-                                                        <li>
-                                                            <a href="/en">INGLÉS</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="/br">PORTUGUÉS</a>
-                                                        </li>
+                                                        <li><a href="/en">INGLÉS</a></li>
+                                                        <li><a href="/br">PORTUGUÉS</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -148,7 +141,7 @@
                             </div>
                         </div>
 
-                        <ul class="cd-header-buttons" style="padding: 0px 0">
+                        <ul class="cd-header-buttons">
                             <li>
                                 <a class="cd-search-trigger" href="#cd-search">
                                     <span></span>
@@ -167,13 +160,7 @@
                 <div id="index-link" class="sm-video-bg">
                     <div class="container sm-content-cont text-center js-height-fullscr">
                         <div class="sm-video-wrapper">
-                            <!-- <div class="sm-video"></div> -->
-                            <div class="sm-videos">
-                                <video muted autoplay playsinline id="video_background" preload="auto" loop="true"
-                                    style="position: absolute; inset: 0px 0px 0px -500px; z-index: -100; width: 1722.67px; height: 969px;">
-                                    <source src="video/glinsealvideo.mp4" type="video/mp4">
-                                </video>
-                            </div>
+                            <div class="sm-video"></div>
                         </div>
 
                         <div class="sm-cont-middle">
@@ -669,7 +656,6 @@
                     </div>
                 </div>
             </div>
-            >
 
             <footer id="footer1" class="page-section text-center pt-100-b-80-cont">
                 <div class="container">
@@ -717,18 +703,18 @@
     <script>
         // Video Init
         $(document).ready(function () {
-            if (!($("html").hasClass("mobile"))) {
-                var videobackground = new $.backgroundVideo($('.sm-video'), {
-                    "align": "centerXY",
-                    "width": 1920,
-                    "height": 1080,
-                    "path": "video/",
-                    "filename": "glinsealvideo", // FILE NAME of your video
-                    "types": ["mp4", "webm"],
-                    "autoplay": true,
-                    "loop": true
-                });
-            }
+            //if (!($("html").hasClass("mobile"))) {
+            var videobackground = new $.backgroundVideo($('.sm-video'), {
+                "align": "centerXY",
+                "width": 1920,
+                "height": 1080,
+                "path": "video/",
+                "filename": "glinsealvideo", // FILE NAME of your video
+                "types": ["mp4", "webm"],
+                "autoplay": true,
+                "loop": true
+            });
+            //}
         });
     </script>
 
